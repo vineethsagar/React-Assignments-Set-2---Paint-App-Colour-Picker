@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Child.css";
-const Selector = (props) => {
+const Selecton = (props) => {
   const [SelectionStyle, updateSelectionStyle] = useState({ background: "" });
 
   return (
@@ -13,4 +13,4 @@ const Selector = (props) => {
     </div>
   );
 };
-export default Selector;
+export default Selecton;
